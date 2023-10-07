@@ -24,17 +24,21 @@ se showmatch matchtime=1
 se laststatus=2
 "history set longer
 se history=10000
-"yank to clipboard
-se clipboard=unnamed,autoselect
 "auto indent
 se smartindent
 "show title
 se title
+"allow mouse
+se mouse=a
+"syntax highlight
+syntax on
 "jj map esc in insert mode
 inoremap <silent>jj <esc>
 "two esc cansel highlight
 nnoremap <esc><esc> :nohlsearch<cr><esc>
 
+"read .vimrc when vim is up
+autocmd! bufwritepost $MYVIMRC source %
 
 "---------"
 "NeoBundle"
