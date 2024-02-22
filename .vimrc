@@ -8,6 +8,7 @@ se softtabstop=2
 se shiftwidth=2
 "show line number
 se nu
+se rnu
 "show mode
 se showmode
 "command complement
