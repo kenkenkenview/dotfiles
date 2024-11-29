@@ -37,6 +37,9 @@ syntax on
 inoremap <silent>jj <esc>
 "two esc cansel highlight
 nnoremap <esc><esc> :nohlsearch<cr><esc>
+"x,s don't save register
+nnoremap x "_x
+nnoremap s "_s
 "read .vimrc when vim is up
 autocmd! bufwritepost ~/.vimrc source %
 
