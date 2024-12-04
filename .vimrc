@@ -42,10 +42,6 @@ nnoremap x "_x
 vnoremap x "_x
 nnoremap s "_s
 vnoremap s "_s
-nnoremap p "_p
-vnoremap p "_p
-nnoremap P "_P
-vnoremap P "_P
 "read .vimrc when vim is up
 autocmd! bufwritepost ~/.vimrc source %
 
