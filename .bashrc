@@ -14,4 +14,5 @@ fi
 
 alias ll="ls -al"
 alias la="ls -a"
+alias python="python3"
 
